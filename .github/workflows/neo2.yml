@@ -4,8 +4,8 @@ on:
   push:
     branches: 
       - master
-  #  paths:
-  #    - '.github/workflows/neo2.yml'
+    paths:
+      - '.github/workflows/neo2.yml'
    release:
      types: [published]
    watch:
